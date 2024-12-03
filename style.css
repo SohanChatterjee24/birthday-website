@@ -1,0 +1,57 @@
+.main-head {
+    background: linear-gradient(300deg, #00bfff, #ff4c68, green);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+.cake{
+    border-radius: 25%;
+}
+
+.dl {
+    font-family: "Meow Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    color: whitesmoke;
+  }
+
+
+  
+  .lead {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: yellow;
+  }
+
+  .bday {
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    color: lightblue;
+  }
+  
+  .pics img{
+    display: flex;
+    height: 800px !important;
+    width: 800px !important;
+    margin-left: 25%;
+    justify-content: center;
+  }
+  
+  
