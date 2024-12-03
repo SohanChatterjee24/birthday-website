@@ -54,4 +54,24 @@
     justify-content: center;
   }
   
+  @media (max-width: 768px) {
+    .carousel-item {
+        /* Ensure carousel items fit within the screen */
+        height: 250px;  /* Adjust the height as necessary */
+        background-size: cover;
+        background-position: center;
+    }
+
+    /* Control the carousel controls (prev/next buttons) for better accessibility */
+    .carousel-control-prev, .carousel-control-next {
+        width: 30px; /* Reduce the size of controls */
+        height: 30px;
+        background-size: 20px; /* Make arrows smaller */
+    }
+
+    .pics img{
+      height: 300px !important;
+      width: 250px !important;
+    }
+  }
   
